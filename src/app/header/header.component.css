@@ -1,0 +1,169 @@
+.header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 61px;
+  transition: top 550ms ease 0s;
+  z-index: 97;
+  border-top: 1px solid rgb(222, 225, 234);
+  border-bottom: 1px solid rgb(222, 225, 234);
+  top: 0;
+  box-shadow: rgb(255 255 255) 20px -0.5px 0 -0.5px;
+}
+.header .header__burger {
+  display: flex;
+}
+.header .header__burger .header__button {
+  background: none rgb(255, 255, 255);
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  font: inherit;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 23px 32px;
+  border-right: 1px solid rgb(222, 225, 234);
+  z-index: 1;
+}
+.header .header__burger .header__button .header__button-span {
+  background-color: rgb(33, 56, 117);
+  position: relative;
+  width: 19px;
+  height: 2px;
+  margin-bottom: 3px;
+  transition: all 0.4s ease 0s;
+}
+.header .header__burger .header__button .header__button-text {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8px;
+  line-height: 8px;
+  font-weight: 500;
+  opacity: 100;
+  will-change: opacity;
+  transition: all 0.4s ease 0s;
+}
+.header .header__menu {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  height: 58px;
+}
+.header .header__menu .header__menu__list {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0;
+  margin: 0;
+  line-height: 60px;
+}
+.header .header__menu .header__menu__list .menu__item {
+  list-style: none;
+}
+.header .header__menu .header__menu__list .menu__item .menu__item-link {
+  position: relative;
+  vertical-align: bottom;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(33, 56, 117);
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: grid;
+  place-items: center;
+  padding: 0 18px;
+  height: 59px;
+  line-height: 12px;
+  border-right: 1px solid rgb(222, 225, 234);
+}
+.header .header__logo {
+  background-color: rgb(255, 255, 255);
+  -webkit-box-flex: 3;
+  flex-grow: 3;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+.header .header__logo .header__logo-pic {
+  width: 100%;
+  height: 40px;
+  color: rgb(33, 56, 117);
+}
+.header .header__etc {
+  background-color: rgb(255, 255, 255);
+  flex-flow: row nowrap;
+  display: flex;
+  flex: 1 1 0;
+  height: 59px;
+  z-index: 1;
+}
+.header .header__etc .header__etc-list {
+  flex-flow: row nowrap;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+}
+.header .header__etc .header__etc-list .etc-login {
+  color: rgb(33, 56, 117);
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  border-left: 1px solid rgb(222, 225, 234);
+  height: 100%;
+  padding: 0 15px;
+  font-weight: 400;
+  font-size: 16px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  width: 100px;
+}
+.header .header__etc .header__etc-list .header__etc-search {
+  background-color: rgb(255, 255, 255);
+  border-left: 1px solid rgb(222, 225, 234);
+  height: 100%;
+}
+.header .header__etc .header__etc-list .header__etc-search label {
+  padding: 0 24px;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+.header .header__etc .header__etc-list .header__etc-search label .desktop-search-input {
+  width: 50px;
+  border-width: 0;
+  transition: all 0.3s ease 0s;
+  appearance: none;
+  background: 0 0;
+  outline: 0;
+  cursor: pointer;
+  margin-top: 18px;
+  left: 25px;
+  transform-origin: left center;
+}
+.header .header__etc .header__etc-list .header__etc-search label .desktop-search-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  position: absolute;
+  transform-origin: left top;
+
+  color: rgb(33, 56, 117);
+  font-weight: 400;
+  font-size: 16px;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+}

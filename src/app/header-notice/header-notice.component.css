@@ -1,0 +1,39 @@
+.header__notice{
+  background: rgb(33, 56, 117);
+  padding: 5px 0 6px;
+  text-align: center;
+  min-height: 35px;
+  overflow: hidden;
+  position: relative;
+  z-index: 97;
+  color: rgb(255, 255, 255);
+  box-shadow: rgb(33 56 117) 20px 0 0;
+}
+.header__notice_list {
+  margin-top: 8px;
+  max-width: 1880px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.header__notice-item {
+  padding-left: 26px;
+  margin: -1px 20px 0;
+  max-width: calc(100% - 20px);
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.header__notice-icon {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  vertical-align: middle;
+  left: 0;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+}

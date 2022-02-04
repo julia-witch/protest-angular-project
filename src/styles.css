@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(33, 56, 117);
+  font-family: FuturaPT, "Futura PT", Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  display: block;
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0;
+}
+
+div {
+  display: block;
+}
+
+a, a:hover {
+  text-decoration: underline;
+}
+a {
+  background-color: transparent;
+  color: #0275d8;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 1em;
+  cursor: default;
+}
+
+form {
+  display: block;
+  margin-top: 0;
+}
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0 2px 1px;
+}
+
+::selection {
+  background: rgb(252, 239, 155);
+  color: rgb(33, 56, 117);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  text-rendering: optimizelegibility;
+}

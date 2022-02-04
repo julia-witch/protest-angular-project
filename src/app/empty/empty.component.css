@@ -1,0 +1,6 @@
+.empty {
+  width: 100%;
+  position: relative;
+  background: rgb(245, 245, 245);
+  padding: 60px 60px 60px;
+}
